@@ -13,7 +13,7 @@ class Memo extends Model
         if(empty($tag)){
             return $this::select('memos.*')->where('user_id', $user_id)->where('status', 1)->get();      
         }else{
-        // もしタグの指定があればタグで絞る ->wher(tagがクエリパラメーターで取得したものに一致)
+        // もしタグの指定があればタグで絞る ->where(tagがクエリパラメーターで取得したものに一致)
           $memos = $this::select('memos.*')
               ->leftJoin('tags', 'tags.id', '=','memos.tag_id')
               ->where('tags.name', $tag)
