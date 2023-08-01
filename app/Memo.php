@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Memo extends Model
 {
-    //
     public function myMemo($user_id){
         $tag = \Request::query('tag');
         // タグがなければ、その人が持っているメモを全て取得
