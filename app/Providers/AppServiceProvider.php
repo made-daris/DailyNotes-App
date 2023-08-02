@@ -6,7 +6,6 @@ use Illuminate\Support\ServiceProvider;
 use App\Memo;
 use App\Tag;
 use Illuminate\Routing\UrlGenerator;
-use Illuminate\Support\ServiceProvider;
 
 
 class AppServiceProvider extends ServiceProvider
