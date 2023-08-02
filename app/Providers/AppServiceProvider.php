@@ -5,6 +5,9 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use App\Memo;
 use App\Tag;
+use Illuminate\Routing\UrlGenerator;
+use Illuminate\Support\ServiceProvider;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(UrlGenerator $url)
     {
         // 全てのメソッドが呼ばれる前に先に呼ばれるメソッド
         view()->composer('*', function ($view) {
@@ -38,6 +41,17 @@ class AppServiceProvider extends ServiceProvider
              $tags = $tagModel->where('user_id', \Auth::id())->get();
             
             $view->with('user', $user)->with('memos', $memos)->with('tags', $tags);
+
+            if (env('APP_ENV') == 'production') {
+                $url->forceScheme('https');
+            }
         });
     }
+
+    // public function boot(UrlGenerator $url)
+    // {
+    //     if (env('APP_ENV') == 'production') {
+    //         $url->forceScheme('https');
+    //     }
+    // }
 }
