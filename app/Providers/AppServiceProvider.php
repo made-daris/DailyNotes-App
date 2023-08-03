@@ -41,10 +41,11 @@ class AppServiceProvider extends ServiceProvider
             
             $view->with('user', $user)->with('memos', $memos)->with('tags', $tags);
 
-            if (env('APP_ENV') == 'production') {
-                $url->forceScheme('https');
-            }
         });
+
+        if (env('APP_ENV') == 'production') {
+            $url->forceScheme('https');
+        }
     }
 
     // public function boot(UrlGenerator $url)
