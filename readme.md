@@ -1,9 +1,9 @@
-# DailyNotes
+# ManaNote
  
 日常的なメモの保存ができるアプリです。
 ログイン機能が搭載されているので安心してお使いいただけます。
  
-# イメージ
+# イメージ(これより先はPC版画面での説明となります)
  
 <img width="1440" alt="編集後" src="https://github.com/made-daris/DailyNotes-App/assets/140872620/5ce44014-464a-468a-a24f-8b51b2b581b0">
  
@@ -14,7 +14,7 @@
  
 # ご利用手順
  
-<a href="https://dailynotes-6y6y.onrender.com">こちらのWEBサイト</a>にて新規登録されるとご利用いただけます。
+<a href="https://mananote.net">こちらのWEBサイト</a>にてログイン(新規登録の方は右上のタブから[Register]を選択し登録)されるとご利用いただけます。
 
 [サインイン画面]
 <img width="1440" alt="サインイン画面" src="https://github.com/made-daris/DailyNotes-App/assets/140872620/72c4b002-f801-4a04-a811-03f1a73504d9">
