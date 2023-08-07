@@ -14,7 +14,7 @@
  
 # ご利用手順
  
-<a href="https://mananote.net">こちらのWEBサイト</a>にてログイン(新規登録の方は右上のタブから[Register]を選択し登録)されるとご利用いただけます。
+<a href="https://mananote.net">こちらのWEBサイト</a>にてログイン(新規ご利用の方は右上のタブから[Register]を選択し登録)されるとご利用いただけます。
 
 [サインイン画面]
 <img width="1440" alt="サインイン画面" src="https://github.com/made-daris/DailyNotes-App/assets/140872620/72c4b002-f801-4a04-a811-03f1a73504d9">
