@@ -6132,6 +6132,7 @@ button.bg-dark:focus {
 
 .d-block {
   display: block !important;
+  margin-bottom: 0.3rem;
 }
 
 .d-table {
