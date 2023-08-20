@@ -25,7 +25,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // 全てのメソッドが呼ばれる前に先に呼ばれるメソッド
             view()->composer('*', function ($view) {
                 // get the current user
                 $user = \Auth::user();
