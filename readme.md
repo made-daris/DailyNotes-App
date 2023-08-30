@@ -3,10 +3,10 @@
 (2023/08/07  アプリ名を[ManaNote]に変更しました。)
 
 ## 開発環境
-言語: PHP
-フレームワーク: Laravel
-サーバー: Amazon EC2
-データベース: MySQL
+言語: PHP<br>
+フレームワーク: Laravel<br>
+サーバー: Amazon EC2<br>
+データベース: MySQL<br>
 <br>
 <br>
 日常的なメモの保存ができるアプリです。  
