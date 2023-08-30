@@ -5,6 +5,7 @@
 ## 開発環境
 開発言語: PHP<br>
 フレームワーク: Laravel<br>
+インフラ: AWS<br>
 サーバー: Amazon EC2<br>
 データベース: MySQL<br>
 <br>
